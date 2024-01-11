@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grader</title>
+
+</head>
+<body>
+   <link rel="stylesheet" href="format.css" />
+    <script src ="scrip.js"></script>
+
+   <label for="name">Full Name (include %20 for space):</label><br>
+   <input type="text" id="name" name="name" /><br />
+   <button type="button" id="Grade" onclick="showGrade()">Search</button>
+   <div id="showgr"></div>
+   <p> <br></p>
+   <button onclick="showAll()">Show All</button>
+   <div id="showce"></div>
+   <p> <br></p>
+   <label for="nam"> Name (for new student):</label><br>
+   <input type="text" id="nam" name="nam" /><br />
+   <label for="hrad">Grade:</label><br>
+   <input type="text" id="hrad" name="hrad" />
+   <button  onclick="newStudent()">Post</button>
+   <div id="showStudent"></div>
+   <p> <br></p>
+   <label for="naam"> Name (for Grade Change):</label><br>
+   <input type="text" id="naam" name="naam" /><br>
+   <label for="grae"> Grade:</label><br>
+   <input type="text" id="grae" name="grae" />
+   <button  onclick="changeGrad()">Change</button>
+   <div id="newGrad"></div>
+   <p> <br></p>
+   <label for="nominus"> Name (for deletion):</label><br>
+   <input type="text" id="nominus" name="nominus" />
+   <button onclick="deletePerson()">Delete</button>
+   <div id="deletedP"></div>
+
+</body>
+</html>
